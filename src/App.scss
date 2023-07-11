@@ -1,0 +1,49 @@
+.page {
+	padding: 32px 0;
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 750px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+
+	margin-bottom: 20px;
+
+	.logo {
+		text-transform: uppercase;
+		line-height: 1.5;
+	}
+
+	.info-btn {
+		background: transparent;
+		border: 0;
+		padding: 0;
+
+		cursor: pointer;
+	}
+}
+
+.bonuses {
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		z-index: -1;
+		display: block;
+		width: 100vw;
+		height: 150px;
+		background: linear-gradient(180deg, #d2333e 0%, #f54b55 100%);
+	}
+}
