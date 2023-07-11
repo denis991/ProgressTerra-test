@@ -1,22 +1,14 @@
-import BonusesWidget from 'components/BonusesWidget';
+import Bonuses from 'components/Bonuses';
+import Header from 'components/Header';
 import './App.scss';
-import { ReactComponent as InfoIcon } from 'assets/info.svg';
 
 function App() {
 	return (
 		<div className='page'>
-			<div className='container'>
-				<div className='row'>
-					<div className='logo'>Логотип</div>
-					<button className='info-btn'>
-						<InfoIcon />
-					</button>
-				</div>
-			</div>
-
+			<Header />
 			<div className='bonuses'>
 				<div className='container'>
-					<BonusesWidget />
+					<Bonuses />
 				</div>
 			</div>
 		</div>

@@ -1,18 +1,11 @@
-
-/build
-.DS_Store
-.env.local
-
-.DS_Store
-.env.local
 /.idea
 /.vscode
 
-
+.DS_Store
 **/.DS_Store
 **/.DS_Store/**
 /node_modules
-
+**/node_modules
 /vendor
 **/vendor
 /v2-redux

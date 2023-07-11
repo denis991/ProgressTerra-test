@@ -5,7 +5,7 @@ import { ReactComponent as ArrowIcon } from 'assets/arrow.svg';
 import { BonusesInfo } from 'types';
 import { getBonusesInfo } from 'utils/gettingData';
 
-const BonusesWidget: FC = () => {
+const Bonuses: FC = () => {
 	const [bonusesInfo, setBonusesInfo] = useState<BonusesInfo | null>(null);
 
 	useEffect(() => {
@@ -31,4 +31,4 @@ const BonusesWidget: FC = () => {
 	);
 };
 
-export default BonusesWidget;
+export default Bonuses;

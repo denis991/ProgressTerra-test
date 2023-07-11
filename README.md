@@ -1,5 +1,8 @@
-page of the bonus receiving component
+# страницу, которая будет содержать компонент получения бонусов
 
-### For start:
-1) npm install
-2) npm start
+## start:
+
+```bash
+npm install
+npm start
+```
