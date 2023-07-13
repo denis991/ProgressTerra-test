@@ -47,3 +47,19 @@
 		background: linear-gradient(180deg, #d2333e 0%, #f54b55 100%);
 	}
 }
+
+.info__button {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(#6caddf 100%,  #4b59f5 100%);
+  color: antiquewhite;
+  box-shadow: 0 0 6px 8px rgba(178, 162, 162, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
